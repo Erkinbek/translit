@@ -1,0 +1,14 @@
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.Form1.resources
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.Properties.Resources.resources
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.csproj.GenerateResource.cache
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.csproj.CoreCompileInputs.cache
+C:\Users\Pardayev\source\repos\Imlo\Imlo\bin\Debug\Imlo.exe
+C:\Users\Pardayev\source\repos\Imlo\Imlo\bin\Debug\Imlo.pdb
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.exe
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.pdb
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.Form2.resources
+C:\Users\Pardayev\source\repos\Imlo\Imlo\bin\Debug\Imlo.exe.manifest
+C:\Users\Pardayev\source\repos\Imlo\Imlo\bin\Debug\Imlo.application
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.TrustInfo.xml
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.exe.manifest
+C:\Users\Pardayev\source\repos\Imlo\Imlo\obj\Debug\Imlo.application
