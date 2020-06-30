@@ -107,32 +107,32 @@
             this.mavjudFaylniOchishToolStripMenuItem,
             this.chiqishToolStripMenuItem});
             this.faylToolStripMenuItem.Name = "faylToolStripMenuItem";
-            this.faylToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.faylToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.faylToolStripMenuItem.Text = "Fayl";
             // 
             // yangiHosilQilishToolStripMenuItem
             // 
             this.yangiHosilQilishToolStripMenuItem.Name = "yangiHosilQilishToolStripMenuItem";
-            this.yangiHosilQilishToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.yangiHosilQilishToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
             this.yangiHosilQilishToolStripMenuItem.Text = "Yangi hosil qilish";
             // 
             // saqlashToolStripMenuItem
             // 
             this.saqlashToolStripMenuItem.Name = "saqlashToolStripMenuItem";
-            this.saqlashToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.saqlashToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
             this.saqlashToolStripMenuItem.Text = "Saqlash";
             // 
             // mavjudFaylniOchishToolStripMenuItem
             // 
             this.mavjudFaylniOchishToolStripMenuItem.Name = "mavjudFaylniOchishToolStripMenuItem";
-            this.mavjudFaylniOchishToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.mavjudFaylniOchishToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
             this.mavjudFaylniOchishToolStripMenuItem.Text = "Mavjud faylni tarjima qilish";
             this.mavjudFaylniOchishToolStripMenuItem.Click += new System.EventHandler(this.mavjudFaylniOchishToolStripMenuItem_Click);
             // 
             // chiqishToolStripMenuItem
             // 
             this.chiqishToolStripMenuItem.Name = "chiqishToolStripMenuItem";
-            this.chiqishToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
+            this.chiqishToolStripMenuItem.Size = new System.Drawing.Size(200, 22);
             this.chiqishToolStripMenuItem.Text = "Chiqish";
             // 
             // tahrirlashToolStripMenuItem
@@ -143,31 +143,31 @@
             this.joylashtirtirishToolStripMenuItem,
             this.shriftFormatlashToolStripMenuItem});
             this.tahrirlashToolStripMenuItem.Name = "tahrirlashToolStripMenuItem";
-            this.tahrirlashToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.tahrirlashToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.tahrirlashToolStripMenuItem.Text = "Tahrirlash";
             // 
             // nusxalarToolStripMenuItem
             // 
             this.nusxalarToolStripMenuItem.Name = "nusxalarToolStripMenuItem";
-            this.nusxalarToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.nusxalarToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.nusxalarToolStripMenuItem.Text = "Nusxalar";
             // 
             // kesishToolStripMenuItem
             // 
             this.kesishToolStripMenuItem.Name = "kesishToolStripMenuItem";
-            this.kesishToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.kesishToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.kesishToolStripMenuItem.Text = "Kesish";
             // 
             // joylashtirtirishToolStripMenuItem
             // 
             this.joylashtirtirishToolStripMenuItem.Name = "joylashtirtirishToolStripMenuItem";
-            this.joylashtirtirishToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.joylashtirtirishToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.joylashtirtirishToolStripMenuItem.Text = "Joylashtirtirish";
             // 
             // shriftFormatlashToolStripMenuItem
             // 
             this.shriftFormatlashToolStripMenuItem.Name = "shriftFormatlashToolStripMenuItem";
-            this.shriftFormatlashToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.shriftFormatlashToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.shriftFormatlashToolStripMenuItem.Text = "Shrift formatlash";
             // 
             // dasturHaqidaToolStripMenuItem
@@ -176,20 +176,20 @@
             this.infoToolStripMenuItem,
             this.yangilanishToolStripMenuItem});
             this.dasturHaqidaToolStripMenuItem.Name = "dasturHaqidaToolStripMenuItem";
-            this.dasturHaqidaToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.dasturHaqidaToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
             this.dasturHaqidaToolStripMenuItem.Text = "Dastur haqida";
             // 
             // infoToolStripMenuItem
             // 
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
-            this.infoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.infoToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.infoToolStripMenuItem.Text = "Info";
             this.infoToolStripMenuItem.Click += new System.EventHandler(this.infoToolStripMenuItem_Click);
             // 
             // yangilanishToolStripMenuItem
             // 
             this.yangilanishToolStripMenuItem.Name = "yangilanishToolStripMenuItem";
-            this.yangilanishToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.yangilanishToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.yangilanishToolStripMenuItem.Text = "Yangilanish";
             this.yangilanishToolStripMenuItem.Click += new System.EventHandler(this.yangilanishToolStripMenuItem_Click);
             // 

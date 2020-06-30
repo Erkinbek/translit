@@ -42,14 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Imlo.exe" size="25000">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Imlo.exe" size="24576">
       <assemblyIdentity name="Imlo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>sp9i5rpmZXFGb6OY+MBYI6nOv7o=</dsig:DigestValue>
+        <dsig:DigestValue>B0cKcIJjXnvXjNbJJaHXXJem1hY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NHunspell.dll" size="31744">
+      <assemblyIdentity name="NHunspell" version="1.2.5554.16953" publicKeyToken="1AC793EA843B4366" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wdA/7yxr4F8r6OIhbL8bg3sqOr8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
