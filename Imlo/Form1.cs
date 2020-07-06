@@ -1,5 +1,9 @@
-﻿using System;
+﻿using NHunspell;
+using System;
+using System.Collections.Generic;
 using System.Deployment.Application;
+using System.Drawing;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using WordProcessor;
 
@@ -15,13 +19,15 @@ namespace Imlo
         private void button1_Click(object sender, EventArgs e)
         {
             String latin = Cyr2Lat(richTextBox1.Text);
-            richTextBox2.Text = latin;
+            richTextBox1.Clear();
+            richTextBox1.Text = latin;
             Clipboard.SetText(latin);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            String cyrillic = TextHelper.LatToCyr(richTextBox2.Text);
+            String cyrillic = TextHelper.LatToCyr(richTextBox1.Text);
+            richTextBox1.Clear();
             richTextBox1.Text = cyrillic;
             Clipboard.SetText(cyrillic);
         }
@@ -42,7 +48,13 @@ namespace Imlo
 
         private void mavjudFaylniOchishToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            OpenFileDialog dlgOpen = new OpenFileDialog();
+            if (dlgOpen.ShowDialog() == DialogResult.OK)
+            {
+                MessageBox.Show(dlgOpen.FileName);
+            }
+            
+            
         }
 
         private void infoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -127,18 +139,42 @@ namespace Imlo
         
         private void clearText1(object sender, EventArgs e)
         {
-            if(richTextBox1.Text.Equals("Кирил алифбосидаги матнни шу ерга киритинг"))
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            using (Hunspell hunspell = new Hunspell("uz-lat.aff", "uz-lat.dic"))
+            {       
+                bool correct = hunspell.Spell("Nurzod");
+                MessageBox.Show("Kiritilgan so'z " + (correct ? "to'g'ri" : "noto'g'ri"));                
+                
+                List<string> suggestions = hunspell.Suggest("Nurzod");
+                MessageBox.Show("There are " +  suggestions.Count.ToString() + " suggestions");
+                foreach (string suggestion in suggestions)
+                {
+                    listBox1.Items.Add("Suggestion is: " + suggestion);
+                }
+            }
+        }
+        
+        private void richTextBox1_DoubleClick(object sender, EventArgs e)
+        {
+            string okteks = richTextBox1.SelectedText;
+            using (Hunspell hunspell = new Hunspell("uz-lat.aff", "uz-lat.dic"))
             {
-                richTextBox1.Text = "";
+                bool correct = hunspell.Spell(okteks);
+                MessageBox.Show("Kiritilgan so'z " + (correct ? "to'g'ri" : "noto'g'ri")+" "+okteks);
+
+                List<string> suggestions = hunspell.Suggest(okteks);
+               // MessageBox.Show("There are " + suggestions.Count.ToString() + " suggestions");
+                foreach (string suggestion in suggestions)
+                {
+                    listBox1.Items.Add("Suggestion is: " + suggestion);
+                }
             }
         }
 
-        private void clearText2(object sender, EventArgs e)
-        {
-            if(richTextBox2.Text.Equals("Lotin alifbosidagi matnni shu yerga kiriting"))
-            {
-                richTextBox2.Text = "";
-            }
-        }
+        
     }
 }
